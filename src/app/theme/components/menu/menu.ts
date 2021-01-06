@@ -2,7 +2,7 @@ import { Menu } from './menu.model';
 
 export const verticalMenuItems = [ 
     new Menu (1, 'Dashboard', '/pages/dashboard', null, 'tachometer', null, false, 0),
-    new Menu (2, 'Membership', '/pages/membership', null, 'users', null, false, 0), 
+    /*new Menu (2, 'Membership', '/pages/membership', null, 'users', null, false, 0), 
     new Menu (3, 'UI Features', null, null, 'laptop', null, true, 0),   
     new Menu (4, 'Buttons', '/pages/ui/buttons', null, 'keyboard-o', null, false, 3),  
     new Menu (5, 'Cards', '/pages/ui/cards', null, 'address-card-o', null, false, 3), 
@@ -48,12 +48,12 @@ export const verticalMenuItems = [
     new Menu (142, 'Level 3', null, null, 'folder-open-o', null, true, 141),
     new Menu (143, 'Level 4', null, null, 'folder-open-o', null, true, 142),
     new Menu (144, 'Level 5', null, null, 'folder-o', null, false, 143),
-    new Menu (200, 'External Link', null, 'http://themeseason.com', 'external-link', '_blank', false, 0)
+    new Menu (200, 'External Link', null, 'http://themeseason.com', 'external-link', '_blank', false, 0)*/
 ]
 
 export const horizontalMenuItems = [ 
     new Menu (1, 'Dashboard', '/pages/dashboard', null, 'tachometer', null, false, 0),
-    new Menu (2, 'Membership', '/pages/membership', null, 'users', null, false, 0), 
+    /*new Menu (2, 'Membership', '/pages/membership', null, 'users', null, false, 0), 
     new Menu (3, 'UI Features', null, null, 'laptop', null, true, 0),   
     new Menu (4, 'Buttons', '/pages/ui/buttons', null, 'keyboard-o', null, false, 3),  
     new Menu (5, 'Cards', '/pages/ui/cards', null, 'address-card-o', null, false, 3), 
@@ -94,5 +94,5 @@ export const horizontalMenuItems = [
     new Menu (71, 'Bar Charts', '/pages/charts/bar', null, 'bar-chart', null, false, 70),
     new Menu (72, 'Pie Charts', '/pages/charts/pie', null, 'pie-chart', null, false, 70),
     new Menu (73, 'Line Charts', '/pages/charts/line', null, 'line-chart', null, false, 70),
-    new Menu (74, 'Bubble Charts', '/pages/charts/bubble', null, 'comment-o', null, false, 70)
+    new Menu (74, 'Bubble Charts', '/pages/charts/bubble', null, 'comment-o', null, false, 70)*/
 ]
