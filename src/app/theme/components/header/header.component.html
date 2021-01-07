@@ -1,5 +1,6 @@
 <nav class="navbar box-shadow app-header" [class.fixed-top]="settings.theme.navbarIsFixed" [class.logo-visible]="showInfoContent">
     <div class="d-flex flex-column w-100">
+        <!--
         <div id="info-content" class="panel-collapse collapse">
             <a class="close" data-toggle="collapse" href="#info-content" (click)="showInfoContent = !showInfoContent" [class.show]="showInfoContent">
                 <span aria-hidden="true">&times;</span>
@@ -72,12 +73,13 @@
                 </div>
             </div>
         </div>
+-->
         <div class="d-flex justify-content-start align-items-center top-navbar">                  
             
             <a class="logo" routerLink="/" (click)="closeSubMenus()">
-                <span class="start">start</span><span class="ng">NG</span>
+                <span class="start">pointage</span><span class="ng">CAR</span>
             </a>
-
+<!--
             <span class="navbar-text menu-icon transition ml-3 mr-3" [ngClass]="{'open': settings.theme.showMenu}"
                 (click)="settings.theme.showMenu = !settings.theme.showMenu">
                 <div class="line"></div>
@@ -96,10 +98,11 @@
                 <i class="fa fa-search"></i>
                 <input type="text" placeholder="Type to search..." class="form-control">
             </form>
-
+-->
             <app-favorites class="d-none d-lg-inline-block"></app-favorites>
 
             <div class="top-rigth-icons ml-auto">
+                <!--
                 <span class="d-none d-sm-inline-block">
                     <app-flags-menu></app-flags-menu>
                 </span> 
@@ -115,14 +118,17 @@
                 <span class="d-none d-sm-inline-block pl-2 pr-2" (click)="settings.theme.showSideChat = !settings.theme.showSideChat">
                     <i class="fa fa-commenting-o" aria-hidden="true"></i>
                 </span> 
+                -->
                 <span class="d-none d-sm-inline-block">
                     <app-user-menu></app-user-menu>
                 </span> 
+                <!--
                 <span class="pl-2 pr-2">
                     <a routerLink="/login">
                         <i class="fa fa-sign-out" aria-hidden="true"></i>
                     </a>                   
                 </span> 
+                -->
             </div> 
 
         </div>

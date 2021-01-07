@@ -20,9 +20,9 @@
     <button class="btn btn-default toggle" (click)="showSetting=!showSetting"><i class="fa fa-spin fa-gear"></i></button>
     <div class="card">
         <div class="card-header text-center">
-            Settings
+            Paramètres
         </div>      
-        <div class="card-body mt-2">
+        <!-- <div class="card-body mt-2">
             <h6>Choose menu</h6>  
             <div class="form-group">
                 <div *ngFor="let menu of menus; let i = index;" class="custom-control custom-radio">
@@ -41,9 +41,9 @@
                     <label [attr.for]="'menuType-'+i" class="custom-control-label text-capitalize">{{menuType}}</label>
                 </div>
             </div> 
-        </div> 
+        </div>  -->
         <div class="card-body mb-3">
-            <h6>Choose theme skin</h6>          
+            <h6>Chosir Thème</h6>          
             <div class="theme light" (click)="changeTheme('light')"></div>
             <div class="theme dark" (click)="changeTheme('dark')"></div>
             <div class="theme blue" (click)="changeTheme('blue')"></div>
@@ -55,7 +55,7 @@
             <div class="theme grey" (click)="changeTheme('grey')"></div>
             <div class="theme pink" (click)="changeTheme('pink')"></div>
         </div>  
-        <div class="card-body mb-2">
+        <!-- <div class="card-body mb-2">
             <h6>Other theme options</h6> 
             <div class="custom-control custom-checkbox">
                 <input type="checkbox" class="custom-control-input checkbox-dark-gray" id="navbarIsFixed" [checked]="settings.theme.navbarIsFixed" (change)="settings.theme.navbarIsFixed = !settings.theme.navbarIsFixed">
@@ -69,6 +69,6 @@
                 <input type="checkbox" class="custom-control-input checkbox-dark-gray" id="footerIsFixed" [checked]="settings.theme.footerIsFixed" (change)="settings.theme.footerIsFixed = !settings.theme.footerIsFixed">
                 <label class="custom-control-label" for="footerIsFixed">Fixed footer</label>
             </div>
-        </div>
+        </div> -->
     </div>
 </div>

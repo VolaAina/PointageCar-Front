@@ -1,6 +1,6 @@
 <div class="d-flex justify-content-start favorites-container ml-5" [class.show-list]="toggle">
     <ul *ngIf="favorites.length == 0" class="list-inline mb-0">
-        <li class="list-inline-item"><span class="fs-13 font-italic">Choose favorites <i id="arrow" class="fa fa-long-arrow-right"></i></span></li>
+        <li class="list-inline-item"><span class="fs-13 font-italic">Choisir Favoris <i id="arrow" class="fa fa-long-arrow-right"></i></span></li>
     </ul> 
     <ul *ngIf="favorites.length > 0" class="list-inline mb-0">
         <li *ngFor="let favorite of favorites" class="list-inline-item" placement="bottom" [ngbTooltip]="favorite.name">

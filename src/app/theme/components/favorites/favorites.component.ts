@@ -20,13 +20,13 @@ export class FavoritesComponent {
         displayAllSelectedText: true
     };
     public favoriteTexts: IMultiSelectTexts = {
-        checkAll: 'Select all',
-        uncheckAll: 'Unselect all',
-        checked: 'menu item selected',
-        checkedPlural: 'menu items selected',
-        searchPlaceholder: 'Find menu item...',
-        defaultTitle: 'Select favorite menu items',
-        allSelected: 'All selected',
+        checkAll: 'Sélectionner tout',
+        uncheckAll: 'Sélectionner tout',
+        checked: 'Menu sélectionné',
+        checkedPlural: 'Menus sélectionnés',
+        searchPlaceholder: 'Rechercher menu...',
+        defaultTitle: 'Sélectionner les menus favoris',
+        allSelected: 'Tout sélectionné',
     };
     public favoriteOptions: IMultiSelectOption[] = [];
     public menuItems:Array<any>;
