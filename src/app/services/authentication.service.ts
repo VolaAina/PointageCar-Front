@@ -36,15 +36,12 @@ export class AuthenticationService {
 
   setUserId(id: any,type_id:any) {
       this.isUserLogin = id;
-      console.log("this.isUserLogin ************1er" + this.isUserLogin);
      // this.newCribSubect.next(this.userIdActuel);
     }
   
      
   getUser(){
       // return this.isUserLogin;
-     
-      console.log(localStorage.getItem('currentUser') )
       return this.currentUserSubject.getValue();
      }
 

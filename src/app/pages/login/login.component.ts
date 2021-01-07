@@ -38,7 +38,6 @@ export class LoginComponent {
                 .pipe(first())
                 .subscribe(
                     data => {
-                        console.log ("OKKKKKKKKK")
                         this.authenticationService.setUserId(this.login.value, this.password.value);
                         //this.router.navigate([this.returnUrl]);
                         this.router.navigate(['pages/dashboard']);
